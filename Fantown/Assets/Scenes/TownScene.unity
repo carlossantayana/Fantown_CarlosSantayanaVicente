@@ -265,9 +265,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 824031835224184299, guid: 69e88587b5f443548b3c7faf0ae1e8b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 69e88587b5f443548b3c7faf0ae1e8b3, type: 3}
       propertyPath: m_Name
       value: CALDERO
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843158811705444746, guid: 69e88587b5f443548b3c7faf0ae1e8b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -355,9 +363,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8578805500383756228, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8508701273471639607, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6456881765276749263, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3948418276825952588, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
       propertyPath: m_Name
       value: CASAS
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655756451172059777, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7169408243344635979, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7523290515070995181, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7790542837337989384, guid: 664d603aba74b0247aad85c7ca7681f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
