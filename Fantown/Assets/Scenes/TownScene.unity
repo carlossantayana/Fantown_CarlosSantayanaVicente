@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 504061866}
   - component: {fileID: 504061865}
   m_Layer: 0
-  m_Name: Particle System (3)
+  m_Name: CHIMENEA003_PARTICULAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1358,7 +1358,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.6
+      value: 0.5
       mode: 0
       spread: 0
       speed:
@@ -5376,7 +5376,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &631062740 stripped
 GameObject:
@@ -5510,7 +5510,7 @@ GameObject:
   - component: {fileID: 912154262}
   - component: {fileID: 912154261}
   m_Layer: 0
-  m_Name: Particle System (4)
+  m_Name: CHIMENEA002_PARTICULAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6306,7 +6306,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.6
+      value: 0.5
       mode: 0
       spread: 0
       speed:
@@ -10324,7 +10324,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -10456,7 +10456,7 @@ GameObject:
   - component: {fileID: 1500150368}
   - component: {fileID: 1500150367}
   m_Layer: 0
-  m_Name: Particle System (1)
+  m_Name: CHIMENEA_PARTICULAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11252,7 +11252,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.6
+      value: 0.5
       mode: 0
       spread: 0
       speed:
@@ -15499,7 +15499,7 @@ GameObject:
   - component: {fileID: 1965740436}
   - component: {fileID: 1965740435}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: BURBUJAS_PARTICULAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20327,7 +20327,7 @@ GameObject:
   - component: {fileID: 1987893201}
   - component: {fileID: 1987893200}
   m_Layer: 0
-  m_Name: Particle System (2)
+  m_Name: CHIMENEA001_PARTICULAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21123,7 +21123,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.6
+      value: 0.5
       mode: 0
       spread: 0
       speed:
