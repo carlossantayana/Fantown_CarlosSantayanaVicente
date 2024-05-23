@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     Vector2 _movement;
     Transform _playerTransform;
+
     AudioSource _audioSource;
 
     Animator _playerAnimator;
@@ -28,9 +29,12 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+
         _playerTransform = transform;
-        _audioSource = GetComponent<AudioSource>();
         _playerAnimator = GetComponent<Animator>();
+
+        _audioSource = GetComponent<AudioSource>();
+
         _playerSword = transform.Find("ESPADA").gameObject;
         _playerSword.SetActive(false);
         _swordAnimator = _playerSword.GetComponent<Animator>();
@@ -54,6 +58,7 @@ public class PlayerController : MonoBehaviour
 
         startedBlocking = Input.GetKeyDown(KeyCode.Mouse1) && !isTalking && !isPunching;
         blocking = Input.GetKey(KeyCode.Mouse1);
+
         isWalking = (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.W)) && !startedBlocking && !blocking && !isTalking && !isPunching;
         isRunning = Input.GetKey(KeyCode.LeftShift) && isWalking;
 
