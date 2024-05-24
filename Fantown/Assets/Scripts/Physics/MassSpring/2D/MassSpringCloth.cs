@@ -87,7 +87,7 @@ namespace MassSpring2D
                 {
                     if (!node.fixedNode) //Si aún no se ha fijado
                     {
-                        node.fixedNode = fixer.CheckFixerContainsPoint(node.pos); //Se comprueba si el fixer actual lo contiene, y por tanto, lo fija.
+                        node.fixedNode = fixer.CheckFixerContainsPoint(node); //Se comprueba si el fixer actual lo contiene, y por tanto, lo fija.
                     }
                 }
             }
@@ -316,7 +316,7 @@ namespace MassSpring2D
 
                 foreach (Node node in nodes) //Se recorren los nodos.
                 {
-                    Gizmos.DrawSphere(node.pos, 0.05f); //Se pinta una esfera en cada uno de los nodos.
+                    Gizmos.DrawSphere(node.pos, 0.01f); //Se pinta una esfera en cada uno de los nodos.
                 }
             }
         } //Estos Gizmos nos permiten ver en tiempo real el movimiento de los vértices y los distintos tipos de muelles.
