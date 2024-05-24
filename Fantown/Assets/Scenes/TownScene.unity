@@ -16256,7 +16256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: 0
-  integrationMethod: 0
+  integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
   flexionSpringStiffness: 6
