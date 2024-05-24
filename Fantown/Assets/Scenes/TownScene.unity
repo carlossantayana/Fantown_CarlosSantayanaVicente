@@ -1992,7 +1992,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3194
+  m_Name: pb_Mesh-4186
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -15288,6 +15288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fixer
       objectReference: {fileID: 0}
+    - target: {fileID: 233269830132972078, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5515771003217817825, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -15358,6 +15362,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5515771003217817825, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
   m_PrefabInstance: {fileID: 972209285}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &972209287 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4931542647546986233, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
+  m_PrefabInstance: {fileID: 972209285}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a44951aa8068844b97ee34c5b2240b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &983352444
 GameObject:
   m_ObjectHideFlags: 0
@@ -16133,6 +16148,7 @@ GameObject:
   - component: {fileID: 1062505852}
   - component: {fileID: 1062505851}
   - component: {fileID: 1062505850}
+  - component: {fileID: 1062505854}
   m_Layer: 0
   m_Name: Cinta
   m_TagString: Untagged
@@ -16219,14 +16235,38 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062505849}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.96733, y: -7.4183707, z: 22.177197}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.6256211, w: 0.78012705}
+  m_LocalPosition: {x: 20.1895, y: 1.08, z: 11.9054}
+  m_LocalScale: {x: 0.0027, y: 1, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 33
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 77.456}
+--- !u!114 &1062505854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062505849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paused: 0
+  integrationMethod: 0
+  clothMass: 1
+  tractionSpringStiffness: 20
+  flexionSpringStiffness: 6
+  dAbsolute: 0.002
+  dDeformation: 0.02
+  g: {x: 0, y: 9.8, z: 0}
+  h: 0.01
+  substeps: 1
+  fixers:
+  - {fileID: 972209287}
 --- !u!1 &1063310049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2523242998981370785, guid: 34d9822ea0fcf7c4f9f2dd78e3091269, type: 3}
