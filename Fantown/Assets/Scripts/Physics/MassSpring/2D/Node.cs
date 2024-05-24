@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace MassSpring2D
 {
     public class Node //Clase que representa un nodo de masa discreta en el modelo masa-muelle.
     {

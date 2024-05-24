@@ -9,7 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace P2.Ejercicio2
+namespace MassSpring1D
 {
     public class Node : MonoBehaviour
     {

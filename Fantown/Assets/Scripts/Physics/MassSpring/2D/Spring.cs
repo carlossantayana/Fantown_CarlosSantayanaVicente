@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Assets.Scripts
+namespace MassSpring2D
 {
     public class Spring //Clase que representa un muelle que aporta elasticidad a un objeto en el modelo masa-muelle.
     {

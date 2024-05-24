@@ -4,7 +4,7 @@
  * 
  * Clase PhysicsManager.cs: Es la que calcula las fuerzas sobre cada nodo libre
  * y halla su posición a lo largo del tiempo en función del método de 
- * integración elegido. Comunica estos cálculos a las clases Node2_1 y Spring2_1
+ * integración elegido. Comunica estos cálculos a las clases Node y Spring
  * para que se dibujen en pantalla los objetos en su posición y orientación
  * correctas
  *****************************************************************************/
@@ -12,7 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace P2.Ejercicio2
+namespace MassSpring1D
 {
     public class PhysicsManager : MonoBehaviour
     {
