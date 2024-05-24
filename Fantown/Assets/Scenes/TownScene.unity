@@ -381,7 +381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -2398,7 +2397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -2845,7 +2843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -8015,7 +8012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d89f8e24c670d46b9b20a751d3d181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   g: {x: 0, y: 9.8, z: 0}
   integrationMethod: 1
   h: 0.01
@@ -9412,7 +9408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -15298,7 +15293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5515771003217817825, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 5515771003217817825, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
       propertyPath: m_LocalScale.y
@@ -15318,7 +15313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5515771003217817825, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.3601
+      value: 0.4188
       objectReference: {fileID: 0}
     - target: {fileID: 5515771003217817825, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15350,7 +15345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5515771003217817825, guid: be30ba167de37354e90dc0d3a65e37a5, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16236,8 +16231,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062505849}
   m_LocalRotation: {x: -0, y: -0, z: 0.6256211, w: 0.78012705}
-  m_LocalPosition: {x: 20.1895, y: 1.08, z: 11.9054}
-  m_LocalScale: {x: 0.0027, y: 1, z: 0.05}
+  m_LocalPosition: {x: 20.1895, y: 1.08, z: 11.9529}
+  m_LocalScale: {x: 0.003, y: 1, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -16255,16 +16250,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
-  clothMass: 1
-  tractionSpringStiffness: 20
-  flexionSpringStiffness: 6
-  dAbsolute: 0.002
-  dDeformation: 0.02
+  clothMass: 3
+  tractionSpringStiffness: 250
+  flexionSpringStiffness: 5
+  dAbsolute: 0.5
+  dDeformation: 0.5
   g: {x: 0, y: 9.8, z: 0}
   h: 0.01
-  substeps: 1
+  substeps: 12
   fixers:
   - {fileID: 972209287}
 --- !u!1 &1063310049 stripped
@@ -17157,7 +17151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -22638,7 +22631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -23699,7 +23691,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -24913,7 +24904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -35339,7 +35329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a54c26c25333a40a5525be80d38869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paused: 0
   integrationMethod: 1
   clothMass: 1
   tractionSpringStiffness: 20
@@ -35738,7 +35727,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122878230}
-  m_LocalRotation: {x: 0.055985197, y: -0.000000002147424, z: 1.2041282e-10, w: 0.9984316}
+  m_LocalRotation: {x: 0.055985197, y: 0.0000000021474245, z: -1.2041285e-10, w: 0.9984316}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

@@ -16,7 +16,6 @@ namespace MassSpring1D
 {
     public class PhysicsManager : MonoBehaviour
     {
-        public bool paused; // Booleano que indica si la animación está pausada o no 
         public Vector3 g = new Vector3(0f, 9.8f, 0f); // Valor de la gravedad (m/s^2)
 
         // Lista enumerada con los tipos de integración posibles
@@ -37,8 +36,6 @@ namespace MassSpring1D
         // Use this for initialization
         void Start()
         {
-            paused = true; // Inicialmente la animación está pausada
-
             // Recorremos la lista de nodos para conocer su posición inicial
             foreach (Node node in listOfNodes)
             {
@@ -68,23 +65,8 @@ namespace MassSpring1D
             }
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            if (Input.GetKeyUp(KeyCode.P)) // Detectamos si se ha pulsado la tecla P
-            {
-                // La tecla P hace de "toggle" para pausar o quitar la pausa de la
-                // animación
-                paused = !paused;
-            }
-        }
-
         private void FixedUpdate()
         {
-            if (paused)
-                // Si está pausada la animación, no hacemos nada y regresamos
-                return;
-
             // Según el método de integración escogido, se invoca una función u otra
             switch (integrationMethod)
             {

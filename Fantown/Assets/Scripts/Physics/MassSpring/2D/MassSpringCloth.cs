@@ -7,8 +7,6 @@ namespace MassSpring2D
     //Componente que permite animar una tela utilizando el método masa-muelle.
     public class MassSpringCloth : MonoBehaviour
     {
-        public bool paused; //Booleano que se encarga de pausar y reanudar la animación.
-
         //Enumeración de los métodos de integración a utilizar.
         public enum Integration
         {
@@ -55,8 +53,6 @@ namespace MassSpring2D
         // Start is called before the first frame update
         void Start()
         {
-            paused = true; //Al comienzo de la ejecución, la animación se encuentra pausada.
-
             //Se inicializa el valor de los comprobadores al valor inicial de las variables originales.
             clothMassChangeCheck = clothMass;
             flexionSpringStiffnessChangeCheck = flexionSpringStiffness;
@@ -132,11 +128,6 @@ namespace MassSpring2D
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKeyUp(KeyCode.P)) //Pulsar la tecla P activa/desactiva la pausa de la animación.
-            {
-                paused = !paused;
-            }
-
             //En caso de que alguna de las copias de los valores originales difiera de este (pues puede ser modificado desde el inspector), se actualizará la masa de los nodos,
             //la rigidez de los muelles, o el tamaño del paso efectivo de integración. A su vez, se actualizará la copia, una vez realizados los cambios.
             //Esto nos permite actualizar la masa de los nodos, la rigidez de los muelles y el paso de integración efectivo en tiempo de ejecución.
@@ -175,11 +166,6 @@ namespace MassSpring2D
         //La integración de las físicas se realiza en la actualización de paso fijo, pues así se evita la acumulación de error.
         private void FixedUpdate()
         {
-            if (paused) //Si la animación está pausada no hacemos nada.
-            {
-                return;
-            }
-
             //Si la animación no está pausada.
             for (int step = 0; step < substeps; step++) //Se realizan uno o varios substeps.
             {

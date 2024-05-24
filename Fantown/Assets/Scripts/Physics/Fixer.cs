@@ -33,7 +33,7 @@ public class Fixer : MonoBehaviour
         return contains;
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         Quaternion currentRotation = transform.rotation;
 
