@@ -1991,7 +1991,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-4186
+  m_Name: pb_Mesh-4570
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -16231,8 +16231,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062505849}
   m_LocalRotation: {x: -0, y: -0, z: 0.6256211, w: 0.78012705}
-  m_LocalPosition: {x: 20.1895, y: 1.08, z: 11.9529}
-  m_LocalScale: {x: 0.003, y: 1, z: 0.05}
+  m_LocalPosition: {x: 20.1895, y: 1.08, z: 11.6969}
+  m_LocalScale: {x: 0.003, y: 1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -16253,12 +16253,12 @@ MonoBehaviour:
   integrationMethod: 1
   clothMass: 3
   tractionSpringStiffness: 250
-  flexionSpringStiffness: 5
+  flexionSpringStiffness: 250
   dAbsolute: 0.5
   dDeformation: 0.5
   g: {x: 0, y: 9.8, z: 0}
   h: 0.01
-  substeps: 12
+  substeps: 25
   fixers:
   - {fileID: 972209287}
 --- !u!1 &1063310049 stripped
@@ -35727,7 +35727,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122878230}
-  m_LocalRotation: {x: 0.055985197, y: 0.0000000021474245, z: -1.2041285e-10, w: 0.9984316}
+  m_LocalRotation: {x: 0.055985197, y: -0.000000002147424, z: 1.2041282e-10, w: 0.9984316}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
