@@ -16168,7 +16168,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -16251,14 +16251,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrationMethod: 1
-  clothMass: 3
+  clothMass: 7
   tractionSpringStiffness: 250
-  flexionSpringStiffness: 250
+  flexionSpringStiffness: 125
   dAbsolute: 0.5
   dDeformation: 0.5
   g: {x: 0, y: 9.8, z: 0}
   h: 0.01
-  substeps: 25
+  substeps: 12
   fixers:
   - {fileID: 972209287}
 --- !u!1 &1063310049 stripped
@@ -35727,7 +35727,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122878230}
-  m_LocalRotation: {x: 0.055985197, y: -0.000000002147424, z: 1.2041282e-10, w: 0.9984316}
+  m_LocalRotation: {x: 0.055985197, y: 0.0000000021474245, z: -1.2041285e-10, w: 0.9984316}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
