@@ -351,7 +351,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f171a424c25e6f44e8ed5ae2ecc872cc, type: 2}
+      objectReference: {fileID: 2100000, guid: 40458683b8784d544b39693a82873d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Name
       value: Banderin (1)
@@ -16891,7 +16891,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f171a424c25e6f44e8ed5ae2ecc872cc, type: 2}
+      objectReference: {fileID: 2100000, guid: 3e74a3cfba6bb8b4bafde0f433091bfc, type: 2}
     - target: {fileID: 919132149155446097, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Name
       value: Banderin (6)
@@ -23433,7 +23433,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f171a424c25e6f44e8ed5ae2ecc872cc, type: 2}
+      objectReference: {fileID: 2100000, guid: 40458683b8784d544b39693a82873d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Name
       value: Banderin (8)
@@ -24647,7 +24647,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f171a424c25e6f44e8ed5ae2ecc872cc, type: 2}
+      objectReference: {fileID: 2100000, guid: 3e74a3cfba6bb8b4bafde0f433091bfc, type: 2}
     - target: {fileID: 919132149155446097, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Name
       value: Banderin (2)
@@ -35004,7 +35004,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f171a424c25e6f44e8ed5ae2ecc872cc, type: 2}
+      objectReference: {fileID: 2100000, guid: 40458683b8784d544b39693a82873d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 00b2de934d4373f45b72fa72de3a8982, type: 3}
       propertyPath: m_Name
       value: Banderin (4)
