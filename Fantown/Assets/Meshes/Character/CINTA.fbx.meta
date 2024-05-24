@@ -3,7 +3,12 @@ guid: eecaf1891110d814a8a4abbc48d24ebb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_Cinta
+    second: {fileID: 2100000, guid: 5e285aa1a9e5c354c843f29dde42bb8b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
