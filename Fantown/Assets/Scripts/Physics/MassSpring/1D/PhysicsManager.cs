@@ -33,9 +33,13 @@ namespace MassSpring1D
         public List<Node> listOfNodes; // Lista que contiene todos los nodos
         public List<Spring> listOfSprings; // Lista que contiene todos los muelles
 
+        private Wind wind; //Componente del viento y sus propiedades para aplicar la fuerza de este sobre la cuerda.
+
         // Use this for initialization
         void Start()
         {
+            wind = GameObject.Find("Wind").GetComponent<Wind>(); //Se almacena el componente del viento del gameObject "Wind".
+
             // Recorremos la lista de nodos para conocer su posición inicial
             foreach (Node node in listOfNodes)
             {
@@ -114,6 +118,11 @@ namespace MassSpring1D
                     // r_(n+1) = r_n + h * v_n
                     node.pos += h * node.vel;
                     node.force = -node.mass * g;
+
+                    //Se agrega la fuerza del viento en función de su intensidad, de la máxima fuerza que puede alcanzar, y su dirección. También se agrega
+                    //un cierto grado de aleatoriedad para cada nodo en cada frame, pues el viento nunca permanece completamente constante.
+                    node.force += (wind.WindIntensity * wind.maxWindForce * Random.Range(0f, 1f)) * wind.WindDirection;
+
                     ApplyDampingNode(node);
                 }
             }
@@ -153,6 +162,11 @@ namespace MassSpring1D
             foreach (Node node in listOfNodes)
             {
                 node.force = -node.mass * g;
+
+                //Se agrega la fuerza del viento en función de su intensidad, de la máxima fuerza que puede alcanzar, y su dirección. También se agrega
+                //un cierto grado de aleatoriedad para cada nodo en cada frame, pues el viento nunca permanece completamente constante.
+                node.force += (wind.WindIntensity * wind.maxWindForce * Random.Range(0f, 1f)) * wind.WindDirection;
+
                 ApplyDampingNode(node);
             }
 
