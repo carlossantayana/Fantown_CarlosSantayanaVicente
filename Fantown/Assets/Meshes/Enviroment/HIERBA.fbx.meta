@@ -3,7 +3,12 @@ guid: d68d36d143d80fc42a392bdb17f5d45c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HIERBA
+    second: {fileID: 2100000, guid: 43ea73caa09be0e4d891034538dc2587, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
