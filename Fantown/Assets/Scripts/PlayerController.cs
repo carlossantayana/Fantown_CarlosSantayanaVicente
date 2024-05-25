@@ -120,6 +120,11 @@ public class PlayerController : MonoBehaviour
             _playerTransform.Translate(Vector3.forward * (_movement.y * _walkSpeed * _runSpeedMultiplier * Time.fixedDeltaTime));
             _playerTransform.Rotate(Vector3.up * (_movement.x * _rotSpeed * Time.fixedDeltaTime));
         }
+
+        if (!startedBlocking && !blocking && !isTalking && !isPunching && !isWalking)
+        {
+            _playerTransform.Rotate(Vector3.up * (_movement.x * _rotSpeed * Time.fixedDeltaTime));
+        }
     }
 
     //Callback o manejador de eventos para el InputSystem.
