@@ -975,7 +975,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!1 &129915414 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3032091358808706138, guid: 34d9822ea0fcf7c4f9f2dd78e3091269, type: 3}
@@ -1485,7 +1485,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!135 &248710819
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9239,7 +9239,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!1 &621209513 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1928084909746038940, guid: 34d9822ea0fcf7c4f9f2dd78e3091269, type: 3}
@@ -9673,7 +9673,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!135 &654760458
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11049,7 +11049,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!1 &912154260
 GameObject:
   m_ObjectHideFlags: 0
@@ -16076,7 +16076,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!135 &929191280
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16462,7 +16462,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!135 &947760714
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25331,7 +25331,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!135 &1535764191
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25568,7 +25568,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!1 &1553494387
 GameObject:
   m_ObjectHideFlags: 3
@@ -26760,7 +26760,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!1 &1776705189 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7713867580461392927, guid: 34d9822ea0fcf7c4f9f2dd78e3091269, type: 3}
@@ -32942,7 +32942,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!1 &1987893199
 GameObject:
   m_ObjectHideFlags: 0
@@ -38589,7 +38589,7 @@ MonoBehaviour:
   pos: {x: 0, y: 0, z: 0}
   vel: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  dAbsolute: 5
+  dAbsolute: 4
 --- !u!1 &2140057221
 GameObject:
   m_ObjectHideFlags: 3
