@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Componente que convierte el collider del gameObject portador en un sistema anticaidas. Este sistema consiste en devolver al jugador al escenario de juego en caso de que se caiga del
+//mapa por un problema con las colisiones.
 public class AntifallSystem : MonoBehaviour
 {
     private Transform _playerTransform;

@@ -48,7 +48,7 @@ namespace MassSpring2D
 
         private Wind wind; //Componente del viento y sus propiedades para aplicar la fuerza de este sobre la tela.
 
-        public List<Fixer> fixers = new List<Fixer>();
+        public List<Fixer> fixers = new List<Fixer>(); //Lista de fixers que pueden afectar a los nodos de la tela.
 
         // Start is called before the first frame update
         void Start()
@@ -79,7 +79,7 @@ namespace MassSpring2D
 
             foreach (Node node in nodes) //Para cada nodo
             {
-                foreach (Fixer fixer in fixers) //Para cada Fixer asociado
+                foreach (Fixer fixer in fixers) //Para cada Fixer asociado a la tela
                 {
                     if (!node.fixedNode) //Si aún no se ha fijado
                     {

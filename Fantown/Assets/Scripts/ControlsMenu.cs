@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Componente que se encarga de gestionar la lógica de activación y desactivación de la pantalla de controles.
 public class ControlsMenu : MonoBehaviour
 {
     public GameObject canvas;
